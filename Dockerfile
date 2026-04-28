@@ -1,3 +1,4 @@
+//This is a multistage docker file for node application
 FROM node:19-alpine as first
 WORKDIR /app
 COPY package*.json .
